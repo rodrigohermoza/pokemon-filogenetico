@@ -1,0 +1,25 @@
+# Parámetros de la tubería. Cambiar aquí, no en el código.
+
+genoma:
+  # Cascada de juegos (identificadores de version_groups.csv): para cada especie se
+  # usa el primero de la lista en el que tenga movimientos por nivel (D-04).
+  juegos: [scarlet-violet, sword-shield, ultra-sun-ultra-moon]
+
+puntuacion:
+  # Peso de cada componente en la similitud total. El video no publica los suyos;
+  # estos siguen su orden: nivel > huevo > habilidades > MT/tutor ~ tipos.
+  pesos:
+    nivel: 3.0
+    huevo: 1.5
+    habilidad: 1.0
+    mt: 0.5
+    tutor: 0.5
+    tipo: 0.5
+  # Bonus por aprender un movimiento compartido a niveles parecidos:
+  # cada movimiento por nivel compartido vale 1 + bonus * exp(-|nivel_A - nivel_B| / tau).
+  bonus_mismo_nivel: 1.0
+  tau_nivel: 5.0
+
+bootstrap:
+  replicas: 100
+  semilla: 42

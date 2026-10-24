@@ -1,0 +1,13 @@
+.venv
+__pycache__/
+.DS_Store
+# Se reconstruye con scripts/descargar_datos.py (manifest.json sí se versiona)
+data/raw/pokeapi/
+# Se reconstruye con scripts/descargar_sprites.py
+data/raw/sprites/
+# Se regenera con make todo
+data/processed/
+# Lleva incrustados los sprites (© Nintendo): se regenera con make sprites && make visual
+results/arbol_finales.html
+# Transcripción del video: contenido del autor, no se publica
+docs/fuentes/

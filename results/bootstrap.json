@@ -1,0 +1,26 @@
+{
+  "replicas": 100,
+  "semilla": 42,
+  "finales": {
+    "especies": 568,
+    "clados": 566,
+    "soporte_mediano": 6.0,
+    "pct_clados_ge95": 0.0265,
+    "pct_clados_ge70": 0.0689,
+    "pct_clados_lt50": 0.8922,
+    "cadenas_evaluadas": 20,
+    "cadenas_soporte_ge70": 0.5,
+    "segundos": 2.8
+  },
+  "todos": {
+    "especies": 1025,
+    "clados": 1023,
+    "soporte_mediano": 43.0,
+    "pct_clados_ge95": 0.3392,
+    "pct_clados_ge70": 0.4047,
+    "pct_clados_lt50": 0.521,
+    "cadenas_evaluadas": 341,
+    "cadenas_soporte_ge70": 0.871,
+    "segundos": 8.0
+  }
+}
