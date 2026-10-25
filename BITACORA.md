@@ -78,3 +78,8 @@
 - Fuera de git: `data/raw/pokeapi/`, `data/raw/sprites/`, `data/processed/` y `results/arbol_finales.html` (lleva los sprites de Nintendo). Todo se regenera con `make datos sprites todo`.
 - Ojo antes de publicar: la transcripción completa del video (`docs/fuentes/`) no debería ir a un repo público.
 - Agentes: ninguno.
+
+## 2026-10-25 · Sesión 2d: GitHub
+- La transcripción del video se quitó del repositorio y de su historial (commit rehecho, objetos viejos purgados); `docs/fuentes/` va al `.gitignore`. Enlaces arreglados en `02`, `03`, `04`, `06`, `00` y el índice de docs.
+- Repositorio público creado y subido: https://github.com/rodrigohermoza/pokemon-filogenetico (rama `main`, autor Rodrigo Hermoza, sin coautoría de Claude).
+- Agentes: ninguno.

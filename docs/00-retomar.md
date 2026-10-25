@@ -1,6 +1,6 @@
 # Retomar el proyecto (leer primero)
 
-Última actualización: 2026-10-23 (sesión 2).
+Última actualización: 2026-10-25 (sesión 2d).
 
 ## Estado en una línea
 **La tubería funciona de punta a punta** (`make todo`, ~26 s) y el árbol radial ya está en estilo pixel con un panel "¿Cómo se hizo?". **El proyecto es por diversión: lo que importa es la imagen** (D-09). Ya lleva los sprites de las 568 etapas finales (HTML de 1.43 MB).
@@ -34,7 +34,7 @@
 ## Próximos pasos
 1. ~~Mirar el árbol con sprites~~ → Rodrigo lo revisó: se ven bien. (El navegador integrado no abre el HTML, P-05: para mirarlo, `open results/arbol_finales.html`.)
 2. Opcional: incrustar la fuente Silkscreen (OFL, pedir aprobación con tamaño).
-3. ~~`git init` + primer commit~~ → hecho (rama `main`, autor Rodrigo Hermoza). Sin remoto. **Antes de subirlo a GitHub público:** quitar `docs/fuentes/transcripcion-video-the31st.md` (transcripción completa de un video ajeno; dejar solo el resumen de `02-referencias.md`).
+3. ~~git + GitHub~~ → hecho: repositorio público https://github.com/rodrigohermoza/pokemon-filogenetico (rama `main`, autor Rodrigo Hermoza, sin coautoría de Claude). La transcripción del video se quitó del historial antes de subir.
 4. Llevarlo al portafolio (`../pagina-web/`), si Rodrigo quiere. Los sprites son © Nintendo: uso de fans sin fines de lucro.
 
 ## Preguntas abiertas para Rodrigo
@@ -46,8 +46,8 @@ Retomamos Pokemon_Filogenetico (/Users/rodrigohermoza/Desktop/Proyectos/Personal
 Lee en orden: CLAUDE.md, docs/00-retomar.md y las últimas entradas de BITACORA.md.
 Estado: es un proyecto por diversión, lo que importa es la imagen (D-09, nada de más
 validación). La tubería funciona (make todo, ~26 s) y el árbol está en estilo pixel en
-results/arbol_finales.html. Ya tiene sprites (revisados, se ven bien). Ya hay git
-(rama main, sin remoto). Sigue con "Próximos pasos": si quiero, llevarlo al portafolio. Respeta las
+results/arbol_finales.html. Ya tiene sprites (revisados, se ven bien). Está en GitHub
+(público: rodrigohermoza/pokemon-filogenetico, rama main). Sigue con "Próximos pasos": si quiero, llevarlo al portafolio. Respeta las
 reglas del CLAUDE.md (nada de instalar/descargar sin aprobación con tamaño, todo gratis,
 commits sin coautoría de Claude) y al terminar actualiza BITACORA.md y docs/00-retomar.md.
 ```

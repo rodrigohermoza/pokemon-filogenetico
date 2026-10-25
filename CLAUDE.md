@@ -28,6 +28,8 @@ Construir un árbol filogenético de Pokémon inspirado en el video de The31st (
 | `Makefile` | `make todo` corre la tubería entera (~25 s); `make datos` rehace la descarga. |
 | `results/` | `prueba_pidgey.{md,csv}`, `arbol_{nj,upgma}_{todos,finales}.nwk`, `validacion_arbol.json`, `bootstrap.json`, `arbol_upgma_*_soporte.nwk`, `arbol_finales.html` (árbol radial interactivo, estilo pixel, local, sin internet; no se versiona porque lleva los sprites), `comparacion_video.md`. |
 
+**Repositorio:** https://github.com/rodrigohermoza/pokemon-filogenetico (público). No versionar sprites, el HTML con sprites ni la transcripción del video.
+
 ## Reglas de Rodrigo (no negociables)
 - **Todo gratis** (datos, herramientas, hosting).
 - **No instalar ni descargar** sin aprobación, indicando qué es y cuánto pesa.
