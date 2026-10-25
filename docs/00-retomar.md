@@ -38,7 +38,7 @@
 4. Llevarlo al portafolio (`../pagina-web/`), si Rodrigo quiere. Los sprites son © Nintendo: uso de fans sin fines de lucro.
 
 ## Preguntas abiertas para Rodrigo
-En [07-pendientes.md](07-pendientes.md): formas regionales y megas, destino (GitHub/portafolio), raíz.
+En [07-pendientes.md](07-pendientes.md): formas regionales y megas, si va al portafolio, raíz. (GitHub ya está resuelto.)
 
 ## Prompt para retomar (copiar en una sesión nueva)
 ```
@@ -47,7 +47,8 @@ Lee en orden: CLAUDE.md, docs/00-retomar.md y las últimas entradas de BITACORA.
 Estado: es un proyecto por diversión, lo que importa es la imagen (D-09, nada de más
 validación). La tubería funciona (make todo, ~26 s) y el árbol está en estilo pixel en
 results/arbol_finales.html. Ya tiene sprites (revisados, se ven bien). Está en GitHub
-(público: rodrigohermoza/pokemon-filogenetico, rama main). Sigue con "Próximos pasos": si quiero, llevarlo al portafolio. Respeta las
+(público: rodrigohermoza/pokemon-filogenetico, rama main, al día). Pregúntame qué
+quiero hacer; la opción abierta es llevarlo al portafolio (../pagina-web/). Respeta las
 reglas del CLAUDE.md (nada de instalar/descargar sin aprobación con tamaño, todo gratis,
 commits sin coautoría de Claude) y al terminar actualiza BITACORA.md y docs/00-retomar.md.
 ```
